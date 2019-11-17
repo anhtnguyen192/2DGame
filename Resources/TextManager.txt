@@ -1,0 +1,129 @@
+#SHADERID 2
+
+#TEXTRENDER 21
+ID 0
+FONT "../Resources/Fonts/arial.ttf"
+TEXT SCORE
+COLOR 1.0 0.0 0.0
+POS 200.0 600.0
+SCALE 2.0 2.0
+ID 1
+FONT "../Resources/Fonts/arial.ttf"
+TEXT PLAY
+COLOR 0 0 0.5
+POS 150 800
+SCALE 3 3
+ID 2
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT PLAY_GAME
+COLOR 0 0 0.5
+POS 125 800
+SCALE 1.8 1.8
+ID 3
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT QUIT
+COLOR 0 0 0.5
+POS 225 200
+SCALE 1.8 1.8
+ID 4
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT OPTION
+COLOR 0 0 0.5
+POS 190 650
+SCALE 1.8 1.8
+ID 5
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT HIGH_SCORE
+COLOR 0 0 0.5
+POS 125 500
+SCALE 1.8 1.8
+ID 6
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT CREDIT
+COLOR 0 0 0.5
+POS 190 350
+SCALE 1.8 1.8
+ID 7
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT RESUME
+COLOR 0 0 0.5
+POS 190 650
+SCALE 1.8 1.8
+ID 8
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT EXIT
+COLOR 0 0 0.5
+POS 225 500
+SCALE 1.8 1.8
+ID 9
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT OPTION
+COLOR 0 0 0.5
+POS 190 350
+SCALE 1.8 1.8
+ID 10
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT MUSIC:
+COLOR 0 0.5 1.0
+POS 190 700
+SCALE 1.0 1.0
+ID 11
+FONT "../Resources/Fonts/digifaw.ttf"
+TEXT SOUND:
+COLOR 0 0.5 1.0
+POS 190 500
+SCALE 1.0 1.0
+ID 12
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT freeMe
+COLOR 0 0 0
+POS 0 0
+SCALE 1.0 1.0
+ID 20
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT TOP_PLAYER
+COLOR 1.0 1.0 1.0
+POS 170 800
+SCALE 1.5 1.5
+ID 21
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT TOP_1:
+COLOR 1 1 0
+POS 200 700
+SCALE 1.0 1.0
+ID 22
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT TOP_2:
+COLOR 1 0.5 0
+POS 200 600
+SCALE 1.0 1.0
+ID 23
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT TOP_3:
+COLOR 0.75 1 0
+POS 200 500
+SCALE 1.0 1.0
+ID 30
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT CONGRATULATION
+COLOR 1.0 1.0 1.0
+POS 100 700
+SCALE 1.5 1.5
+ID 31
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT NEW_HIGH_SCORE
+COLOR 1.0 1.0 1.0
+POS 130 520
+SCALE 1.3 1.3
+ID 32
+FONT "../Resources/Fonts/8bitOperatorPlus8-Bold.ttf"
+TEXT SCORE:
+COLOR 1.0 1.0 1.0
+POS 150 600
+SCALE 1.2 1.2
+ID 13
+FONT "../Resources/Fonts/Jelly_Crazies.ttf"
+TEXT freeMe
+COLOR 0 0 0
+POS 0 0
+SCALE 1.0 1.0

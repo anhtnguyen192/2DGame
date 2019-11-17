@@ -1,0 +1,6 @@
+Texture:
+ID 10 Boss1
+ID 11 Boss2
+ID 1 Background Space
+ID 20->23 enermy
+ID 2,3,4 Button

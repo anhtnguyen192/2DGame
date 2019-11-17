@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Testbed">
+      <UniqueIdentifier>{c8b7d9e8-630f-4945-ba0c-47e646cc83ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testbed\ProjectTest">
+      <UniqueIdentifier>{0612da10-81ef-4e1f-aecb-c27124e60eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testbed\Tests">
+      <UniqueIdentifier>{a6b57866-57a8-48a5-9adb-fb989e598e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{a588762b-8770-4b6d-836f-216da9e9cfe7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_TYPE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_WelcomeScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_MainMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_OptionMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_GamePlayScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_Credit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_PetMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_CharacterMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMusic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonRectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_HighScoreScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_GamePause.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_GameEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Boss.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\BossCircle.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\BossRectangle.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Box2DSceneManager.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Bullet.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\BulletType1.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Counter.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\DoublePoint.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Enemy.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\EnemyBullet.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\EnemyCircle.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\EnemyRectangle.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Item.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Life.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\MainCharacter.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\Object2D.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\UpgradeBullet.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\ProjectTest\UpgradeBulletLevel.h">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\Tests\AddPair.h">
+      <Filter>Testbed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Testbed\Test.h">
+      <Filter>Testbed</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_WelcomeScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_MainMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_OptionMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_GamePlayScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_Credit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_PetMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_CharacterMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMusic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonRectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_HighScoreScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_GamePause.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_GameEnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Boss.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\BossCircle.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\BossRectangle.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Box2DSceneManager.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Bullet.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\BulletType1.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Counter.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\DoublePoint.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Enemy.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\EnemyBullet.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\EnemyCircle.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\EnemyRectangle.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Item.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Life.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\MainCharacter.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\Object2D.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\UpgradeBullet.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\ProjectTest\UpgradeBulletLevel.cpp">
+      <Filter>Testbed\ProjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\Test.cpp">
+      <Filter>Testbed</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbed\Tests\AddPair.cpp">
+      <Filter>Testbed\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Shaders\BackgroundFS.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BackgroundVS.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ButtonFS.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ButtonVS.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\SpriteFS.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\SpriteVS.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\text.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\text.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\Box2D_SM.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\Resources\defineRM.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\Resources\ResourcesManeger.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\Resources\SceneManager.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\Resources\SoundManager.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\Resources\TextManager.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\Resources\highscore.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
